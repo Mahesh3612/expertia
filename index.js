@@ -11,9 +11,7 @@ app.use(express.json())
 app.use(cors())
 
 
-app.get("/", (req, res) => {
-    res.send("hello mahesh")
-})
+
 
 
 app.post("/register", async (req, res) => {
